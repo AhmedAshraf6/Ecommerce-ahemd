@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/Ecommerce-ahemd/static/css/main.ebf72d83.css",
+    "main.js": "/Ecommerce-ahemd/static/js/main.08c02829.js",
+    "static/media/video-image.jpg": "/Ecommerce-ahemd/static/media/video-image.b0bdb33f84f28699792b.jpg",
+    "static/media/hero-bg.jpg": "/Ecommerce-ahemd/static/media/hero-bg.b24b1c7283af6cca3fab.jpg",
+    "static/media/product-img-1.jpg": "/Ecommerce-ahemd/static/media/product-img-1.27970c1e3a6a17eac5b8.jpg",
+    "static/media/product-img-2.jpg": "/Ecommerce-ahemd/static/media/product-img-2.5ea71d8ff7874bdfa5e4.jpg",
+    "static/media/product-img-3.jpg": "/Ecommerce-ahemd/static/media/product-img-3.b4da7c61b510e9c606bd.jpg",
+    "static/media/avatar1.png": "/Ecommerce-ahemd/static/media/avatar1.52842dd582b01c1fe9e2.png",
+    "static/media/advertice.jpg": "/Ecommerce-ahemd/static/media/advertice.952aebbc682094147f31.jpg",
+    "static/media/avatar3.png": "/Ecommerce-ahemd/static/media/avatar3.526f7b10c319633d0131.png",
+    "static/media/team1.jpg": "/Ecommerce-ahemd/static/media/team1.7c4bb15d913b3a50679a.jpg",
+    "static/media/team2.jpg": "/Ecommerce-ahemd/static/media/team2.15b21179026b2bf0dd03.jpg",
+    "static/media/team3.jpg": "/Ecommerce-ahemd/static/media/team3.71dc5cbb0392a61feac3.jpg",
+    "static/media/product-img-6.jpg": "/Ecommerce-ahemd/static/media/product-img-6.ca33d6aab584012d747c.jpg",
+    "static/media/product-img-4.jpg": "/Ecommerce-ahemd/static/media/product-img-4.bf327a71752bb7e77076.jpg",
+    "static/media/product-img-5.jpg": "/Ecommerce-ahemd/static/media/product-img-5.bf7db5f375e6bd7ed354.jpg",
+    "static/media/avatar4.jpg": "/Ecommerce-ahemd/static/media/avatar4.b82505beba9f927ac25a.jpg",
+    "static/media/a.jpg": "/Ecommerce-ahemd/static/media/a.85b7711e5afa8d1a9568.jpg",
+    "static/media/logo.png": "/Ecommerce-ahemd/static/media/logo.9adc4659e829b833f7e3.png",
+    "index.html": "/Ecommerce-ahemd/index.html",
+    "main.ebf72d83.css.map": "/Ecommerce-ahemd/static/css/main.ebf72d83.css.map",
+    "main.08c02829.js.map": "/Ecommerce-ahemd/static/js/main.08c02829.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ebf72d83.css",
+    "static/js/main.08c02829.js"
+  ]
+}
