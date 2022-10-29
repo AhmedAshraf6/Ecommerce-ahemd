@@ -106,7 +106,7 @@ const Footer = () => {
             </h5>
             <div className='social-links d-flex justify-content-center align-items-center'>
               <a
-                href='https://www.instagram.com/ahmedashraf1551/'
+                href='https://www.linkedin.com/in/ahmed-ashraf6/'
                 rol='noopener'
                 target='_blank'
                 className='icon text-success fs-4 ms-2'

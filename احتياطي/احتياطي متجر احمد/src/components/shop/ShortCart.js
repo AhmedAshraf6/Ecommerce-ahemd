@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
+import { useDispatch, useSelector } from 'react-redux';
+import { closeCartOverlay, removeItem } from '../../features/cart/cartSlice';
 const ShortCart = () => {
   const { cart, amount, total } = useSelector((store) => store.cartItems);
   const dispatch = useDispatch();

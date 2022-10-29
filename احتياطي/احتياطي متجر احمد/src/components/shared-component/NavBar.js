@@ -59,17 +59,17 @@ const NavBar = () => {
         </Link>
         <div className='collapse navbar-collapse' id='navContent'>
           <ul className='navbar-nav me-auto mx-auto mb-2 mb-lg-0'>
-            <li className='nav-item ms-5'>
+            <li className='nav-item ms-4'>
               <NavLink className='nav-link' to='/'>
                 الرئيسية
               </NavLink>
             </li>
-            <li className='nav-item ms-5'>
+            <li className='nav-item ms-4'>
               <NavLink className='nav-link' to='/about'>
                 معلومات عنا
               </NavLink>
             </li>
-            <li className='nav-item ms-5'>
+            <li className='nav-item ms-4'>
               <NavLink className='nav-link' to='/shop'>
                 المتجر
               </NavLink>

@@ -1,0 +1,413 @@
+/* Main Settings */
+// Color Varables
+
+$primary: #f28123;
+$dark: #051922;
+$light: #f5f5f5;
+$success: #6c757d;
+// $whitecolor: #fff;
+
+@import '~bootstrap/scss/bootstrap.scss';
+
+html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+input {
+  &:focus {
+    box-shadow: none !important;
+  }
+}
+select {
+  &:focus {
+    box-shadow: none !important;
+  }
+}
+body {
+  font-family: 'El Messiri', sans-serif;
+  overflow-x: hidden;
+  // position: relative;
+}
+/* Main Settings */
+
+/* Navbar */
+.navbar {
+  // background: transparent;
+  transition: 1s;
+  &.active {
+    background-color: $dark;
+  }
+  .navbar-nav {
+    .nav-item {
+      .active {
+        color: #f28123 !important;
+      }
+      .nav-link {
+        font-weight: 700;
+        &:not(.active) {
+          color: #fff;
+        }
+        &:hover {
+          color: #f28123;
+        }
+      }
+    }
+  }
+
+  /* Toglle Button On Bootstrab */
+  .navbar-toggler {
+    border-color: transparent !important;
+    &:focus {
+      box-shadow: none;
+    }
+  }
+  .show {
+    background-color: $dark;
+  }
+}
+
+/* Navbar */
+
+/* Header */
+
+.landing-page {
+  background-image: url('./imgs/hero-bg.jpg');
+  background-size: cover;
+  min-height: 100vh;
+  .header {
+    h1 {
+      font-size: 64px;
+      @media (max-width: 1200px) {
+        & {
+          font-size: 45px;
+        }
+      }
+      @media (max-width: 767px) {
+        & {
+          font-size: 28px;
+        }
+      }
+    }
+  }
+}
+/* Header */
+ِ/*navbar */
+ .navbar-icons {
+  .icon {
+    transition: 0.5s ease;
+    &:hover {
+      color: $primary !important;
+    }
+  }
+  .badge {
+    right: -28px;
+    top: 5px;
+    z-index: 3;
+  }
+}
+.logo {
+  @media (max-width: 300px) {
+    img {
+      width: 80px;
+      margin-left: 30px;
+    }
+  }
+}
+ِ/*navbar */
+/* List Section */
+
+
+
+/* List Section */
+
+/* Cart Banner */
+.cart-banner {
+  .image-content {
+    .price-box {
+      width: 112px;
+      height: 107px;
+      border-color: rgb(219 184 156 / 75%) !important;
+    }
+  }
+}
+/* Cart Banner */
+
+/* Video Section */
+.video-section {
+  z-index: 2;
+  .video {
+    background-image: url('./imgs/video-image.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    max-height: 400px;
+    .video-icon {
+      width: 18%;
+      height: 19%;
+    }
+    .video-iframe {
+      height: 400px;
+      max-height: 400px;
+    }
+  }
+}
+/* Video Section */
+/* Testimonials */
+.carousel-inner {
+  .carousel-item {
+    .carousel-box {
+      @media (max-width: 767px) {
+        width: 100% !important;
+      }
+    }
+  }
+}
+/* Testimonials */
+/* Banner Shop */
+.shop-banner {
+  background-image: url(./imgs/advertice.jpg);
+  background-size: cover;
+  transform: scaleX(-1);
+  .container {
+    transform: scaleX(-1);
+  }
+  .discount {
+    font-size: 60px;
+  }
+}
+/* Banner Shop */
+/* Footer */
+.footer {
+  .first-row {
+    padding: 100px 0 100px;
+  }
+  .social-links {
+    .icon {
+      transition: 0.5s all ease;
+      &:hover {
+        color: $primary !important;
+      }
+    }
+  }
+  .box {
+    .page {
+      &:hover {
+        color: $primary;
+      }
+    }
+    h4 {
+      &::before {
+        content: '';
+        position: absolute;
+        right: 0;
+        top: 38px;
+        width: 10%;
+        border-bottom: 2px solid $primary;
+      }
+    }
+    &:last-child {
+      .subscribe {
+        input {
+          font-size: 15px;
+          background-color: #012738;
+          border-color: #012738;
+          box-shadow: none;
+          color: #fff;
+        }
+        .input-group-text {
+          border-color: #012738;
+          background-color: #012738;
+          transition: 0.5s all ease;
+          &:hover {
+            background-color: $primary !important;
+            color: $dark !important;
+          }
+        }
+      }
+    }
+  }
+}
+/* Footer */
+/* Logo Section */
+.logo-section {
+  .logo {
+    transition: 1s all ease;
+    &:hover {
+      opacity: 0.6;
+    }
+  }
+}
+
+/* Logo Section */
+
+/******************************************** About Page ********************************************/
+.about {
+  .our-team {
+    .single-box {
+      height: 400px;
+      background-size: cover;
+    }
+    .single-box-1 {
+      background-image: url('./imgs/team1.jpg');
+    }
+    .single-box-2 {
+      background-image: url('./imgs/team2.jpg');
+    }
+    .single-box-3 {
+      background-image: url('./imgs/team3.jpg');
+    }
+  }
+}
+
+/******************************************** About Page ********************************************/
+
+/******************************************** Contact Us ********************************************/
+.form-contact {
+  .form-control {
+    box-shadow: none;
+    &:focus {
+      border-color: $dark;
+    }
+  }
+
+  label {
+    right: 0;
+  }
+}
+/* Google Maps */
+
+.map-container {
+  width: 100%;
+  height: 500px;
+}
+
+/******************************************** Contact Us ********************************************/
+
+/******************************************** SHOP **************************************************/
+.shop-products {
+  .category-btn {
+    &.active {
+      background-color: $primary !important;
+    }
+  }
+}
+/******************************************** SHOP **************************************************/
+/* LandingPage Shared */
+.landpage-shared {
+  min-height: 70vh;
+  .overlay {
+    opacity: 0.8;
+  }
+  .land-content {
+    h1 {
+      font-size: 50px;
+      @media (max-width: 767px) {
+        & {
+          font-size: 30px;
+        }
+      }
+    }
+  }
+}
+/* LandingPage Shared */
+/* Big Cart */
+.big-cart {
+  .number-input {
+    @media (max-width: 565px) {
+      & {
+        width: 100% !important;
+        height: 30px !important;
+      }
+    }
+  }
+}
+/* Big Cart */
+/* Own frameworlk */
+.btn {
+  transition: 0.7s ease;
+  &:focus {
+    box-shadow: none;
+  }
+  &.first {
+    color: $light;
+    border-radius: 50rem;
+    &:hover {
+      background-color: $dark;
+      border-color: $dark;
+      color: $primary;
+    }
+  }
+  &.second {
+    &:hover {
+      background-color: $primary;
+    }
+  }
+}
+.overlay {
+  background-color: #07212e;
+  opacity: 0.6;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+// video section
+.video {
+  &.overlay {
+    opacity: 0.9;
+  }
+}
+//  Title with border bottom
+.title-with-border-bottom {
+  position: relative;
+  &::after {
+    position: absolute;
+    content: '';
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    width: 50px;
+    height: 2px;
+    background-color: $primary;
+    margin: 0 auto;
+  }
+}
+.pointer {
+  cursor: pointer;
+}
+
+/* Own framework */
+
+/* small Cart  */
+.cart-overlay {
+  background: rgb(125, 125, 125, 0.5);
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 99999;
+  direction: ltr;
+  .small-cart {
+    background: rgb(231, 226, 221);
+    position: fixed;
+    width: 30%;
+    height: 100%;
+    direction: rtl;
+    overflow-y: auto;
+    @media (max-width: 767px) {
+      & {
+        width: 75%;
+      }
+    }
+    .items {
+      .item {
+        border-bottom: 1px solid $success;
+        &:last-of-type {
+          border: none !important;
+        }
+      }
+    }
+  }
+}
+
+/* small Cart  */

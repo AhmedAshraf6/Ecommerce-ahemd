@@ -1,0 +1,15 @@
+website url :https://technext.github.io/fruitkha/index.html
+
+
+font family
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  font-family: 'El Messiri', sans-serif;
+
+$maincolor: '#F28123';
+$secondcolor: '#051922'
+
